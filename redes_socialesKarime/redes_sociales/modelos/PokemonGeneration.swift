@@ -9,11 +9,11 @@ import SwiftUI
 
 /// Representa una generación de Pokémon con sus datos esenciales
 struct PokemonGeneration: Identifiable, Codable {
-    let id: Int
-    let name: String
-    let mainRegion: String
+    public let id: Int?
     
-    let pokemonSpecies: [PokemonSpecies]
+    public let name: String?
+    
+   
 
 }
 

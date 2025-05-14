@@ -10,9 +10,29 @@ import SwiftUI
 class pokemon_api: Codable {
     let url_base = "https://pokeapi.co/docs/v2"
     
+    func descargar_berry() async -> PaginaResultado? {
+        let ubicacion_recurso = "/berry"
+        
+        return await descargar(recurso: ubicacion_recurso)
+    }
+    
+    func descargar_generation(id: Int) async -> MonoChino? {
+        let ubicacion_recurso = "/generation"
+        
+        return await descargar(recurso: ubicacion_recurso)
+    }
+    
+    func descargar_informacion_planetas() async -> PaginaResultadoPlaneta? {
+        let ubicacion_recurso = "/PokemonEvolution"
+        
+        return await descargar(recurso: ubicacion_recurso)
+    }
+    
+    
+    
     private func descargar<TipoGenerico: Codable>(recurso: String) async -> TipoGenerico? {
         do {
-            guard let url = URL(string: "\(url_de_servicio)\(recurso)") else { throw ErroresDeRed.malaDireccionUrl }
+            guard let url = URL(string: "\(url_base)\(recurso)") else { throw ErroresDeRed.malaDireccionUrl }
             let (datos, respuesta) = try await URLSession.shared.data(from: url)
             guard let respuesta = respuesta as? HTTPURLResponse else {throw ErroresDeRed.badResponse}
             guard respuesta.statusCode >= 200 && respuesta.statusCode < 300 else { throw ErroresDeRed.badStatus }

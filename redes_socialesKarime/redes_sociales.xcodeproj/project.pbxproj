@@ -23,7 +23,7 @@
 		FB8610232D9D9A7E00F3187A /* pagina_resultados.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8610222D9D9A7E00F3187A /* pagina_resultados.swift */; };
 		FB87D1E92D9453700080BBF1 /* controlador_app.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB87D1E82D9453700080BBF1 /* controlador_app.swift */; };
 		FB8B185D2DCBBD9C003AADC7 /* PokemonGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B185C2DCBBD9C003AADC7 /* PokemonGeneration.swift */; };
-		FB8B185F2DCBC4E4003AADC7 /* PokemonSpecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B185E2DCBC4E4003AADC7 /* PokemonSpecies.swift */; };
+		FB8B185F2DCBC4E4003AADC7 /* PokemonEvolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B185E2DCBC4E4003AADC7 /* PokemonEvolution.swift */; };
 		FB8B18612DCBC60E003AADC7 /* ComentarioPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B18602DCBC60E003AADC7 /* ComentarioPokemon.swift */; };
 		FB8B18632DCBC6DC003AADC7 /* pokemon_api.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B18622DCBC6DC003AADC7 /* pokemon_api.swift */; };
 		FB9648262D91B0E4009D609B /* redes_socialesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9648252D91B0E4009D609B /* redes_socialesApp.swift */; };
@@ -36,8 +36,10 @@
 		FB96483D2D91BC3F009D609B /* controlador_publicaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB96483C2D91BC3F009D609B /* controlador_publicaciones.swift */; };
 		FB9648412D91BE1A009D609B /* publicaciones_general.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9648402D91BE1A009D609B /* publicaciones_general.swift */; };
 		FBA61D6D2DA427640050A758 /* personaje_vista.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA61D6C2DA427640050A758 /* personaje_vista.swift */; };
+		FBAA72F82DD24C6F003FDADA /* Pokemon_pantallas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA72F72DD24C6F003FDADA /* Pokemon_pantallas.swift */; };
 		FBDAEAE42D9700FD00DC9EE7 /* perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDAEAE32D9700FD00DC9EE7 /* perfil.swift */; };
 		FBDAEAE72D97045100DC9EE7 /* perfil_vista_basica.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDAEAE62D97045100DC9EE7 /* perfil_vista_basica.swift */; };
+		FBE723592DD4ECE8008F97CF /* Controlador_Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE723582DD4ECE8008F97CF /* Controlador_Pokemon.swift */; };
 		FBEBF3E12DA0340F009C8696 /* PantallaPersonajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEBF3E02DA0340F009C8696 /* PantallaPersonajes.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +61,7 @@
 		FB8610222D9D9A7E00F3187A /* pagina_resultados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagina_resultados.swift; sourceTree = "<group>"; };
 		FB87D1E82D9453700080BBF1 /* controlador_app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlador_app.swift; sourceTree = "<group>"; };
 		FB8B185C2DCBBD9C003AADC7 /* PokemonGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGeneration.swift; sourceTree = "<group>"; };
-		FB8B185E2DCBC4E4003AADC7 /* PokemonSpecies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSpecies.swift; sourceTree = "<group>"; };
+		FB8B185E2DCBC4E4003AADC7 /* PokemonEvolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonEvolution.swift; sourceTree = "<group>"; };
 		FB8B18602DCBC60E003AADC7 /* ComentarioPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentarioPokemon.swift; sourceTree = "<group>"; };
 		FB8B18622DCBC6DC003AADC7 /* pokemon_api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemon_api.swift; sourceTree = "<group>"; };
 		FB9648222D91B0E4009D609B /* redes_sociales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redes_sociales.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,8 +75,10 @@
 		FB96483C2D91BC3F009D609B /* controlador_publicaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlador_publicaciones.swift; sourceTree = "<group>"; };
 		FB9648402D91BE1A009D609B /* publicaciones_general.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = publicaciones_general.swift; sourceTree = "<group>"; };
 		FBA61D6C2DA427640050A758 /* personaje_vista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personaje_vista.swift; sourceTree = "<group>"; };
+		FBAA72F72DD24C6F003FDADA /* Pokemon_pantallas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_pantallas.swift; sourceTree = "<group>"; };
 		FBDAEAE32D9700FD00DC9EE7 /* perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfil.swift; sourceTree = "<group>"; };
 		FBDAEAE62D97045100DC9EE7 /* perfil_vista_basica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfil_vista_basica.swift; sourceTree = "<group>"; };
+		FBE723582DD4ECE8008F97CF /* Controlador_Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controlador_Pokemon.swift; sourceTree = "<group>"; };
 		FBEBF3E02DA0340F009C8696 /* PantallaPersonajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaPersonajes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +133,7 @@
 			children = (
 				FB29AFF02DCE5EBB005D78B0 /* SoportePokemon */,
 				FB8B185C2DCBBD9C003AADC7 /* PokemonGeneration.swift */,
-				FB8B185E2DCBC4E4003AADC7 /* PokemonSpecies.swift */,
+				FB8B185E2DCBC4E4003AADC7 /* PokemonEvolution.swift */,
 				FB29AFEE2DCE54A7005D78B0 /* PokemonBerries.swift */,
 			);
 			name = Pokemon;
@@ -194,6 +198,7 @@
 			children = (
 				FB96483C2D91BC3F009D609B /* controlador_publicaciones.swift */,
 				FB87D1E82D9453700080BBF1 /* controlador_app.swift */,
+				FBE723582DD4ECE8008F97CF /* Controlador_Pokemon.swift */,
 			);
 			path = controladores;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 		FB96483E2D91BDE8009D609B /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				FBAA72F62DD24C4E003FDADA /* Pokemon */,
 				FBEBF3DF2DA033F6009C8696 /* dragon_ball */,
 				FB703A992D9AEC6400739303 /* menu_inicial */,
 				FBDAEAE52D97043B00DC9EE7 /* perfil_basico */,
@@ -227,6 +233,14 @@
 				FB790F012D945E91009BFD55 /* publicacion.swift */,
 			);
 			path = publicaciones;
+			sourceTree = "<group>";
+		};
+		FBAA72F62DD24C4E003FDADA /* Pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA72F72DD24C6F003FDADA /* Pokemon_pantallas.swift */,
+			);
+			path = Pokemon;
 			sourceTree = "<group>";
 		};
 		FBDAEAE52D97043B00DC9EE7 /* perfil_basico */ = {
@@ -329,14 +343,16 @@
 				FB169C562DC51B9A00422AD3 /* estados_de_la_aplicacion.swift in Sources */,
 				FB8B18612DCBC60E003AADC7 /* ComentarioPokemon.swift in Sources */,
 				FB8B185D2DCBBD9C003AADC7 /* PokemonGeneration.swift in Sources */,
-				FB8B185F2DCBC4E4003AADC7 /* PokemonSpecies.swift in Sources */,
+				FB8B185F2DCBC4E4003AADC7 /* PokemonEvolution.swift in Sources */,
 				FBA61D6D2DA427640050A758 /* personaje_vista.swift in Sources */,
 				FB790F042D946335009BFD55 /* comentario.swift in Sources */,
 				FB96483D2D91BC3F009D609B /* controlador_publicaciones.swift in Sources */,
 				FB8610232D9D9A7E00F3187A /* pagina_resultados.swift in Sources */,
 				FB9648262D91B0E4009D609B /* redes_socialesApp.swift in Sources */,
 				FB8610202D9D98B500F3187A /* dragonball_api.swift in Sources */,
+				FBAA72F82DD24C6F003FDADA /* Pokemon_pantallas.swift in Sources */,
 				FB8610182D9D944100F3187A /* mono_chino.swift in Sources */,
+				FBE723592DD4ECE8008F97CF /* Controlador_Pokemon.swift in Sources */,
 				FBDAEAE72D97045100DC9EE7 /* perfil_vista_basica.swift in Sources */,
 				FB8B18632DCBC6DC003AADC7 /* pokemon_api.swift in Sources */,
 				FB96483B2D91B4AB009D609B /* errores.swift in Sources */,
