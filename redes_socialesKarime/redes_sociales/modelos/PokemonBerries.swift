@@ -9,7 +9,7 @@ import Foundation
 
 public struct PKMBerry: Identifiable, Codable {
     
-    public let id: Int?
+    public let id: Int
     
     public let name: String?
     

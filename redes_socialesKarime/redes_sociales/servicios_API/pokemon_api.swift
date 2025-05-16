@@ -62,6 +62,6 @@ class pokemon_api: Codable {
         return nil
     }
 
-    |
+    
 }
 
